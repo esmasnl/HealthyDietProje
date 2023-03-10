@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".PhysicallyActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/arkaplan">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/physically1"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/egzersiz1" />
+
+            <ImageView
+                android:id="@+id/physically2"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/egzersiz2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/physically1" />
+
+            <ImageView
+                android:id="@+id/physically3"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/egzersiz3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/physically1" />
+
+            <ImageView
+                android:id="@+id/physically4"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/egzersiz4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/physically1" />
+
+            <ImageView
+                android:id="@+id/physically5"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/egzersiz5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/physically1" />
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="GÜNLÜK EGZERSİZ AKTİVİTELERİ"
+            android:textSize="17sp"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="60dp"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="98dp"
+            android:layout_height="50dp"
+            android:textColor="#ffff"
+            android:text="1.Egzersiz"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="45dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="98dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="#ffff"
+            android:text="2.Egzersiz"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="98dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="480dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="#ffff"
+            android:text="3.Egzersiz"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="98dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="695dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="#ffff"
+            android:text="4.Egzersiz"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="98dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="910dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="#ffff"
+            android:text="5.Egzersiz"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
